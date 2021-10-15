@@ -31,21 +31,21 @@ h3{
 .topnav a.two {  
     background-color: #e63183;
     color: black;
-    border: 2px solid #b4125b;
+    border: 2px solid #a5004a;
     padding: 10px 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;}
 
 .topnav a.two:hover, a.two:active {
-    background-color: #b4125b;
+    background-color: #a5004a;
     color: white;
 }
 
 .topnav a.three {    
     background-color: #3183e6;
     color: black;
-    border: 2px solid #1674e7;
+    border: 2px solid #0053b9;
     padding: 10px 20px;
     text-align: center;
     text-decoration: none;
@@ -53,7 +53,7 @@ h3{
 }
 
 .topnav a.three:hover, a.three:active {
-    background-color: #1674e7;
+    background-color: #0053b9;
     color: white;
 }
 
