@@ -67,6 +67,10 @@ p {
     text-indent:40px
 }
 
+p.small {
+    font-size: 14px;
+}
+
 img {
     display: block;
     margin: 0 auto;
