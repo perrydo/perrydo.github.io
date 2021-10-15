@@ -13,6 +13,11 @@ h3{
     background-color:#3183e6;
 }
 
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
 .topnav a.one {
     background-color: #83e631;
     color: black;
