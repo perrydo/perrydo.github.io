@@ -1,6 +1,6 @@
 h1 {
 	font-size: 40px;
-	background-color:rgb(131, 230, 49);
+	background-color:#83e631;
 }
 
 h2 {
@@ -13,8 +13,8 @@ h3{
     background-color:#3183e6;
 }
 
-a.one:link, a.one:visited {
-    background-color: white;
+.topnav a.one:link, a.one:visited {
+    background-color: #83e631;
     color: black;
     border: 2px solid green;
     padding: 10px 20px;
@@ -23,7 +23,7 @@ a.one:link, a.one:visited {
     display: inline-block;
 }
   
-a.one:hover, a.one:active {
+.topnav a.one:hover, a.one:active {
     background-color: green;
     color: white;
 }
