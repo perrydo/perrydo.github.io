@@ -38,9 +38,25 @@ h3{
     display: inline-block;}
 
 .topnav a.two:hover, a.two:active {
-    background-color: #a7004b;
+    background-color: #b4125b;
     color: white;
 }
+
+.topnav a.three {    
+    background-color: #3183e6;
+    color: black;
+    border: 2px solid #1674e7;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.topnav a.three:hover, a.three:active {
+    background-color: #1674e7;
+    color: white;
+}
+
 #para1 {
 	font-size: 16px;
 }
