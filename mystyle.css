@@ -13,7 +13,7 @@ h3{
     background-color:#3183e6;
 }
 
-.topnav a.one:link, a.one:visited {
+.topnav a.one {
     background-color: #83e631;
     color: black;
     border: 2px solid green;
@@ -28,6 +28,19 @@ h3{
     color: white;
 }
 
+.topnav a.two {  
+    background-color: #e63183;
+    color: black;
+    border: 2px solid #b4125b;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;}
+
+.topnav a.two:hover, a.two:active {
+    background-color: #a7004b;
+    color: white;
+}
 #para1 {
 	font-size: 16px;
 }
