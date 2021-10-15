@@ -3,16 +3,6 @@ h1 {
 	background-color:#83e631;
 }
 
-h2 {
-    font-size: 30px;
-    background-color:#e63183;
-}
-
-h3{
-    font-size: 20px;
-    background-color:#3183e6;
-}
-
 .topnav a.one {
     background-color: #83e631;
     color: black;
@@ -74,12 +64,4 @@ h3{
 
 p {
     text-indent:40px
-}
-
-#para1 {
-	font-size: 16px;
-}
-#para2 {
-	font-size: 12px;
-	color:SlateBlue;
 }
