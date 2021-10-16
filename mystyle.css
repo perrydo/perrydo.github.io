@@ -57,6 +57,22 @@
     color: white;
 }
 
+a.five, a.five:visited{
+    text-align: center;
+}
+
+a.five:hover{
+    text-align: center;
+    background-color: #6800bd;
+    color: white;
+}
+
+a.five:active {
+    text-align: center;
+    background-color: #6800bd;
+    color: white;
+}
+
 h1 {
 	font-size: 40px;
     text-align: center;
