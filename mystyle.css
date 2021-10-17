@@ -57,6 +57,10 @@
     color: white;
 }
 
+/* I wanted to make the nav bar to show as button, so I followed the codes for nav bar suggested by w3schools */
+/* I picked the colours of the nav bar buttons based on suggestion the suggestion from this website https://www.colorhexa.com/e63183 */
+/* The colour palette was also inspired by The Powerpuff Girls */
+
 a.five, a.five:visited{
     text-align: center;
     color:rgb(0, 110, 255)
@@ -73,7 +77,7 @@ a.five:active {
     background: #6800bd;
     color: #ff9933;
 }
-
+/* The colour when hover was picked to follow the theme of the nav bar, and the colour of the hyperlinks when clicked was picked based on suggestion from colorhexa */
 h1 {
 	font-size: 40px;
     text-align: center;
@@ -83,15 +87,16 @@ h1 {
 p {
     text-indent: 40px;
 }
-
+/* Most people often forget this, but paragraphs should have indentation. */
 p.small {
     font-size: 12px;
     text-indent: 0px;
 }
-
+/* p.small is used for figure captions and little footnotes, so it makes no sense to have it indented. */
 img {
     display: block;
     margin: 0 auto;
     width: 1000px;
     height: auto;
 }
+/* The original images are all very huge, so I had to resize to 1000 px to make sure it's small enough for the website but still shows enough little details that are very important*/
