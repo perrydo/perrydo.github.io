@@ -108,6 +108,7 @@ p.small {
 p.caption {
     font-size: 14px;
 	text-align: center;
+    text-indent: 60px;
 }
 
 p.caption#index {
