@@ -102,6 +102,7 @@ p {
 p.small {
     font-size: 12px;
     text-indent: 0px;
+    text-align: center;
 }
 /* p.small is used for little footnotes, so it makes no sense to have it indented. */
 p.caption {
