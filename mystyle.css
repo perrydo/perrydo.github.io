@@ -84,6 +84,17 @@ h1 {
 	background-color:#83e631;
 }
 
+h1.images{
+    background-color:#e63183;
+}
+h1.paleo{
+    background-color:#3183e6;
+}
+h1.references{
+    background-color:#6800bd;
+}
+
+/* I changed the header background colour to match the colour theme of the page from the nav bar --> */
 p {
     text-indent: 40px;
 }
@@ -101,10 +112,53 @@ p.caption {
 p.caption#index {
     color: green;
 }
+p.caption#images {
+    color: #a5004a;
+}
+p.caption#pollen {
+    color: #0053b9;
+}
+/* Figure captions follow the colour palette of each page */
+
+p.list{
+    text-align: center;
+}
+
 img {
     display: block;
     margin: 0 auto;
     width: 1000px;
     height: auto;
 }
+
+a.five#artwork:active {
+    color: #e63183;
+}
+a.five#inception:active {
+    color: #83e631;
+}
+a.five#video:active{
+    color: #3183e6;
+}
+/* I also changed the colour of the text in the last 3 hyperlinks when clicked to follow the established color palette */
+
+img.background {
+    width: 100%;
+    height: auto;
+    opacity: 0.2;
+}
+
+div.container {
+    position: relative;
+}
+/* I wanted a background image for the reference list so it wouldn't be a boring section of just a plain list */
+/* The background image is a beautiful photo of illuminated diatoms that's free to use from wikipedia. It's set to 0.2 opacity so the readers can still easily read the reference list if they want to */
+/* The background image size was also overrided, no longer 1000px but now span accross the whole width of the webpage */
+
+div.reflist {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+}
+/* The reference list was placed on top of the background image within the full page margin */
 /* The original images are all very huge, so I had to resize to 1000 px to make sure it's small enough for the website but still shows enough little details that are very important*/
