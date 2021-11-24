@@ -1,5 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
+<style>
+body {font-family:Arial, Helvetica, sans-serif; font-size:12px;}
+
+.fadein { position:relative; height:332px; width:500px; }
+.fadein img { position:absolute; left:0; top:0; }
+
+	</style>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 <script>
 $(function(){
@@ -7,9 +15,10 @@ $(function(){
 	setInterval(function(){$('.fadein :first-child').fadeOut().next('img').fadeIn().end().appendTo('.fadein');}, 3000);
 });
 </script>
+</head>
 <body>
 <h1>Simplest jQuery Slideshow</h1>
-<p>Check out the <a href="/archives/javascript/simplest-jquery-slideshow">blog post</a>.</p>
+
 <div class="fadein">
 <img src="/iiiheader1.png">
 <img src="/iiiheader2.png">
