@@ -1,7 +1,10 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
 <div id="fadein">
-<img src="Images/iiiheader1.png" alt="header image with the firm's name #1" id="headerimage">
-<img src="Images/iiiheader2.png" alt="header image with the firm's name #2" id="headerimage">  
-<img src="Images/iiiheader3.png" alt="header image with the firm's name #3" id="headerimage">    
+<img src="iiiheader1.png" alt="header image with the firm's name #1" id="headerimage">
+<img src="iiiheader2.png" alt="header image with the firm's name #2" id="headerimage">  
+<img src="iiiheader3.png" alt="header image with the firm's name #3" id="headerimage">    
 </div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 <script>
@@ -10,3 +13,4 @@
 		setInterval(function(){$('.fadein :first-child').fadeOut().next('img').fadeIn().end().appendTo('.fadein');}, 3000);
 	});
 </script>
+</body>
