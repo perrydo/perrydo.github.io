@@ -38,7 +38,7 @@
     }
 
     .header {
-        background-image: ('url:What_Is_GIS_Banner_Large.png');
+        background-image: url:("What_Is_GIS_Banner_Large.png");
     }
     
     .bottom {
@@ -51,14 +51,36 @@
     }
 
     body {
+        background-color: #707070
+    }
+
+    .assignment {
         width: 900px;
+        background-color: white;
+    }
+
+    #logo1 {
+        text-align: left;
+        display: inline-block;
+    }
+
+    #logo2 {
+        float: right;
+        display: inline-block;
+    }
+
+    a:link {
+        color: white;
     }
 </style>
 </head>
 <body>
+
+<div class="assignment">
 <div class="header">
 <h1>What is GIS?</h1>
 </div>
+
 <div class="main">
 <h2>The Power of Mapping</h2>
 
@@ -84,9 +106,18 @@
 <h3>Managing Geographically</h3>
 
 <p>GIS has become an essential to understanding what is happening and what will happen in geographic space. Once we understand, we can presc��ribe action. This new approach to management�managing geographically�is transforming the way organizations operate. Kuwait University used GIS to design and build a multibillion-dollar expansion.</p>
+
+<div class="logo">
+<img id="logo1" src='FlemingGIS.png' alt="FlemingGIS">
+<img id="logo2" src='SENRS.png' alt='SENSR'>
 </div>
+
+</div>
+
 <div class="bottom">
-<p class="address">www.flemingcollege.ca | Frost Campus | 200 Albert St S, Lindsay, ON K9V 5E6, Canada</p>
+<p class="address"><a href="https://www.flemingcollege.ca">www.flemingcollege.ca</a> | Frost Campus | 200 Albert St S, Lindsay, ON K9V 5E6, Canada</p>
 </div>
+</div>
+
 </body>
 </html>
